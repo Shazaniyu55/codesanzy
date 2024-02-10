@@ -342,6 +342,34 @@ section{
     color: var(--main-color);
     padding: 0 10px;   
 }
+.form-container{
+    background-color: var(--main-color);
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+input[type="text"]{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type="email"]{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-container-btn{
+    background-color: var(--black);
+    color: var(--white);
+    width: 200px;
+    height: 40px;
+    border: none;
+
+}
 .contact .box-container .box button{
     height: 40px;
     width: 140px;
@@ -446,6 +474,13 @@ section{
     section{
         padding: 3rem 2rem;
     }
+    .form-container{
+        background-color: var(--main-color);
+        width: 300px;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 20px;
+    }
 }
 
 @media (max-width:768px) {
@@ -479,6 +514,13 @@ section{
     .home .content h3{
         font-size: 5.5rem;
     }
+    .form-container{
+        background-color: var(--main-color);
+        width: 300px;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 20px;
+    }
 }
 
 @media (max-width:450px) {
@@ -488,5 +530,12 @@ section{
     
     .home .content h3{
         font-size: 4.5rem;
+    }
+    .form-container{
+        background-color: var(--main-color);
+        width: 300px;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 20px;
     }
 }
